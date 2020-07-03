@@ -2,6 +2,9 @@
 
 Implementing [IWAE](https://arxiv.org/pdf/1509.00519.pdf) on VAE with a [Gaussian prior](https://arxiv.org/pdf/1611.05148.pdf).
 
+### Loss derivation
+![](iwae-loss.png)
+
 ### Results on MNIST
 |    |  VAE  |  IWAE  |  GM-VAE  | IW-GM-VAE |
 | -- | ----- | -----  | ------- | ------- |
@@ -9,7 +12,7 @@ Implementing [IWAE](https://arxiv.org/pdf/1509.00519.pdf) on VAE with a [Gaussia
 | KL Loss  | 0.1645 | 0.1509 | 0.3748 | 0.4224 |
 | Accuracy | 0.9732 | 0.9771 | 0.9637 | 0.9621 |
 
-### Results on MNIST
+### TSNE plots
 
 |    |       |
 | -- | ----- |
