@@ -1,0 +1,10 @@
+{
+    "name": "iw-gmvae",
+    "n_epochs": 10,
+    "batch_size_train": 256,
+    "batch_size_test": 1000,
+    "learning_rate": 0.01,
+    "momentum": 0.5,
+    "log_interval": 10,
+    "num_samples": 10
+}
